@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to the Best Restaurant in Raleigh!</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Site navigation menu -->
+    <ul class="navbar">
+        <li>
+            <a href="#home">Home page</a>
+            <li>
+                <a href="musings.html">Restaurant Map</a>
+                <li>
+                    <a href="town.html">Delivery information</a>
+                    <li>
+                        <a href="#about">About us</a>
+                    </li>
+                </li>
+            </li>
+        </li>
+
+    </ul>
+
+    <!-- Main content -->
+    <a name="home"></a>
+    <h1>The Best Chinese Restaurant in Raleigh!</h1>
+
+    <p>
+
+        <letter1>w</letter1>elcome you and your friends, deliver the delicious food to your home!
+    </p>
+    <p>These are dishes picture, you will like&hellip;
+    </p>
+    <h2>Dishes picture</h2>
+
+    <div style="width:960px;overflow-x:scroll">
+        <div style="width:2280px">
+            <img src="./IMG_3062.JPG" width="304" height="228" />
+            <img src="./IMG_3062.JPG" width="304" height="228" />
+            <img src="./IMG_3062.JPG" width="304" height="228" />
+        </div>
+    </div>
+
+    <p>
+        <strong>Call phone xxxxxxxxx, that will deliver on time!
+            <!-- Sign and date the page, it's only polite! -->
+        </strong>
+    </p>
+
+    <script>
+
+        $(document).ready(function () {
+            $("ul li:eq(3)").click(function (event) {
+                alert("The Web side are building by Xiaoxun Wang.");
+                event.preventDefault();
+            });
+        });
+
+    </script>
+
+    <footer>
+        <address>
+            Mail to
+            <a href="mailto:sunshinexinwei@hotmail.com">Xinwei Wang</a>.
+            <br> Visit us at: Example.com Box 564, Raleigh USA
+            <br>
+            <script type="text/javascript">
+                var nowDate = new Date();
+                document.write(nowDate);
+            </script>
+        </address>
+        <span style="font-family:arial;">Copyright &copy; May-2018 Xinwei Wang</span>
+
+    </footer>
+
+</body>
+
+</html>

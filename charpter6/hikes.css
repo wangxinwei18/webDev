@@ -1,0 +1,29 @@
+
+
+h1 {
+    color: black;
+    color: rgba(255,255,255,0.8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5em;
+    padding-right: 10px;
+    text-align: right;
+    text-shadow: 5px 5px 5px blue;
+
+}
+
+h2 {
+    color: blue;
+}
+
+body {
+    color: black;
+}
+
+#content {
+    background-image: url("./image/park1.JPG");
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 1024;
+    height: 480;
+    padding-top: 20px;
+}

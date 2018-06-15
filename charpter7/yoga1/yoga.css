@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #3f2860;
+    background-color: #3f2860;
+    font-family: Verdana, Arial, Helvetica, sans-serif, Tahoma, sans-serif;
+}
+
+header {
+    height: 140px;
+    /* color: white; */
+    background-image: url(./images/lilyheader.jpg);
+    /*line-height: 360%;
+    text-indent: 1em; */
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #9bc1c2;
+}
+
+nav {
+    float: left;
+    width: 190px;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.1em;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    background-color: rgb(220, 225, 231);
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    font-weight: bold;
+    padding: 1em;
+    margin-bottom: 1em;
+    /* border-style: outset #500404; 
+   border-image-outset: 3px black;*/
+}
+
+nav a:link {
+    color: #3f2860;
+    box-shadow: inset #333333;
+}
+
+nav a:visited {
+    color: #497777;
+    box-shadow: inset #333333;
+}
+
+nav a:hover {
+    color: #a26100;
+    background-color: #eaeaea;
+    box-shadow: inset #333333;
+}
+
+h1 {
+    padding-top: 40px;
+    padding-left: 2em;
+}
+
+h2 {
+    color: #3399cc;
+    margin-left: 190px;
+}
+
+h3 {
+    font-size: 85%;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 550px;
+    max-width: 1280px;
+    color: #3f2860;
+    background-color: #f5f5f5;
+}
+
+.floatleft {
+    float: left;
+    margin-right: 3em;
+}
+
+#mathero {
+    height: 300px;
+    background-image: url(./images/yogamat.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#loungehero {
+    height: 300px;
+    background-image: url(./images/yogalounge.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.clear {
+    clear: both;
+}
+
+main {
+    padding-top: 0cm;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 2em;
+    display: block;
+    background-color: #f5f5dc;
+    margin-left: 190px;
+}
+
+main ul {
+    margin-left: 170px;
+   
+}
+
+main ul li {
+    font-size: 90%;
+   margin-left: 80px; 
+}
+
+footer {
+    padding: 1em;
+    background-color: #9bc1c2;
+    font-size: small;
+    font-style: italic;
+}

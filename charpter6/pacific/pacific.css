@@ -1,0 +1,81 @@
+h1 {
+    margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000033;
+    background: color #90c7e3;
+    background-image: linear-gradient(to bottom, #ffffff, #90c7e3);
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+}
+
+header {
+    color: #ffffff;
+    background-color: #000033;
+    background-image: url(./img/park1.JPG);
+    text-align: center;
+    margin-top: 15px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+main{margin-top: 1px;
+margin-right: 20px;
+margin-left: 20px;
+margin-bottom: 20px;
+display:block;
+}
+
+nav {
+    background-color: #90c7e3;
+    font-weight: bolder;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h2 {
+    color: #3399cc;
+    font-family: Georgia, 'Times New Roman', Helvetica, sans-serif;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    text-shadow: 3px 3px 3px #cccccc;
+}
+
+dt {
+    color: #000033
+}
+
+.resort {
+    color: 5c7fa3;
+    font-weight: bold;
+}
+
+ul {
+    list-style-image: url(./img/strawberry1.png);
+    margin-top: 0em;
+}
+
+footer {
+    font-size: 75%;
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Helvetica, sans-serif;
+}
+
+#contact {
+    font-size: 90%
+}
+
+#wrapper {
+    width: 90%;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #333333;
+    margin-left: auto;
+    margin-right: auto;
+}

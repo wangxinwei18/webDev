@@ -1,0 +1,65 @@
+body {
+    color: #3f2860;
+    background-color: #f5f5f5;
+    font-family: Verdana, Arial, Helvetica, sans-serif, Tahoma, sans-serif;
+}
+
+header {
+    color: white;
+    background-image: url(./image/park2.JPG);
+    line-height: 360%;
+    text-indent: 1em;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color: #90c7e3;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h1 {
+    text-indent: 1em;
+    line-height: 360%;
+}
+
+h2 {
+    color: #3399cc;
+}
+
+#pic1 {
+    float: right;
+    margin: 0 0 5px 5px;
+    border: 1px solid #000000;
+}
+#pic2{margin-top: 0em;
+    margin-bottom: 0cm;
+}
+
+#contact {
+    margin-top: 2%
+}
+
+dt {
+    color: #000033;
+}
+
+.resort {
+    color: 5c7fa3
+}
+
+li {
+    font-size: 90%
+}
+
+footer {
+    margin-top: 5%;
+    background-color: #9bc1c2;
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+}

@@ -1,0 +1,59 @@
+h1 {
+    margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    background-color: white
+}
+
+header {
+    color: #ffffff;
+    background-color: #000033;
+    background-image: url(./img/park1.JPG);
+    line-height: 360%;
+    text-indent: 1em;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color: #90c7e3;
+    font-weight: bolder;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h2 {
+    color: #3399cc;
+    font-family: Georgia, 'Times New Roman', Helvetica, sans-serif;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+
+dt {
+    color: #000033
+}
+
+.resort {
+    color: 5c7fa3;
+    font-weight: bold;
+}
+
+ul {
+    list-style-image: url(./img/strawberry1.png);
+    margin-top: 0em;
+}
+
+footer {
+    font-size: 75%;
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Helvetica, sans-serif;
+
+}
+#contact{ font-size: 90%}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vue 点击改变数据</title>
+       <script src="./vue.js"></script>
+</head>
+<body>
+  <div id="root">
+      <div @click="handleClick">{{content}}</div>
+  </div>  
+  <script>
+      new Vue({
+          el:"#root",
+          data:{
+              content:"Hello"
+          },
+          methods:{
+              handleClick: function(){
+                  this.content="World"
+              }
+          }
+      })
+  </script>
+</body>
+</html>

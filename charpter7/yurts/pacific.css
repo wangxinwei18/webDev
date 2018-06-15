@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 2em;
+    letter-spacing: 0.25em;
+    font-family: Georgia, 'Times New Roman', Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    background-color: #b8dbed;
+}
+
+header {
+    color: #ffffff;
+    background-color: #000033;
+    text-align: center;
+    height: 80px;
+    padding-top: 30px;
+    padding-left: 3em;
+}
+
+nav {
+    padding: 1.5em;
+    font-size: 120%;
+    float: left;
+    width: 160px;
+    font-weight: bolder;
+}
+
+nav ul {
+    list-style-type: none;
+    /*  text-decoration: none; */
+    margin: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    
+}
+
+nav a:link {color:#5c7fa3;}      /* 未访问链接*/
+nav a:visited {color:#344873;}  /* 已访问链接 */
+nav a:hover {color:#FF00FF;}  /* 鼠标移动到链接上 */
+nav a:active {color:#0000FF;}  /* 鼠标点击时 */
+
+h2 {
+    color: #3399cc;
+    font-family: Georgia, 'Times New Roman', Helvetica, sans-serif;
+    margin-top: 0.03em;
+    margin-bottom: 0em; 
+    text-shadow: 1px #cccccc;
+}
+
+dt {
+    color: #000033
+}
+
+.resort {
+    color: 5c7fa3;
+    font-weight: bold;
+}
+
+main {
+    background-color: #ffffff;
+    margin-left: 190px;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    display: block;
+}
+
+main ul {
+    list-style-image: url(./images/marker.gif);
+    margin-top: 0em;
+}
+
+footer {
+    font-size: 75%;
+    margin-left: 190px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Helvetica, sans-serif;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #90c7e3;
+    min-width: 960px;
+    max-width: 2048px;
+    box-sizing: border-box 1px #000033;
+    background: -webkit-linear-gradient(white, blue);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradien(white, blue);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(white, blue);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(white, blue);
+    /*    background: linear-gradient(to bottom #ffffff #90c7e3); */
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 3px gray;
+}
+
+#homehero {
+    height: 250px;
+    margin-left: 190px;
+    background-size: 100% 100%;
+    background-image: url(./images/coast.jpg);
+    background-repeat: no-repeat;
+}
+
+#yurthero {
+    height: 250px;
+    margin-left: 190px;
+    background-size: 100% 100%;
+    background-image: url(./images/yurt.jpg);
+    background-repeat: no-repeat;
+}
+
+#trailhero {
+    height: 250px;
+    margin-left: 190px;
+    background-size: 100% 100%;
+    background-image: url(./images/coast.jpg);
+    background-repeat: no-repeat;
+}

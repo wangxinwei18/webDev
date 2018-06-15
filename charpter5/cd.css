@@ -1,0 +1,23 @@
+#bar {
+    color: white;
+    background-image: url("./images/flower3.JPG");
+}
+
+a {
+    font-family: arial;
+    font-size: 1.2em;
+    color: white;
+}
+
+h1 {
+    color: yellow
+}
+
+h2 {
+    color: white
+}
+
+body {
+    color: white;
+    background-image: url("./images/flower2.JPG");
+}

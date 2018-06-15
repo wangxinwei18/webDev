@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Image Gallery</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: #333333;
+            color: #eaeaea;
+        }
+
+        #gallery {
+            position: relative;
+        }
+
+        figure {
+            position: absolute;
+            left: 280px;
+            text-align: center;
+            opacity: 0.25;
+        }
+
+        #gallery ul {
+            width: 300px;
+            list-style-type: none;
+        }
+
+        #gallery li {
+            float: left;
+           /* display: inline; */
+            padding: 10px;
+        }
+
+        #gallery img {
+            border-style: none;
+        }
+
+        #gallery a {
+            text-decoration: none;
+            color: #eaeaea;
+            font-style: italic;
+        }
+
+        #gallery span {
+            position: absolute;
+            left: -1000px;
+            opacity: 0;
+            transition: opacity 3s ease-in-out;
+        }
+
+        #gallery a:hover span {
+            position: absolute;
+            top: 16px;
+            left: 320px;
+            text-align: center;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Image Gallery</h1>
+    <div id="gallery">
+        <figure>
+            <img src="./gallery/photo1.jpg" alt="Golden Gate Bridge" width="400" height="300">
+        </figure>
+        <ul>
+            <li>
+                <a href="./gallery/photo1.jpg">
+                    <img src="./gallery/thumb1.jpg" width="100" height="75" alt="Golden Gate Bridge">
+                    <span>
+                        <img src="./gallery/photo1.jpg" width="400" height="300" alt="Golden Gate Bridge">
+                        <br> Golden Gate Bridge
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="./gallery/photo2.jpg">
+                    <img src="./gallery/thumb2.jpg" width="100" height="75" alt="Golden Breach">
+                    <span>
+                        <img src="./gallery/photo2.jpg" width="400" height="300" alt="Golden Breach">
+                        <br> Golden Breach
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="./gallery/photo3.jpg">
+                    <img src="./gallery/thumb3.jpg" width="100" height="75" alt="Golden forest">
+                    <span>
+                        <img src="./gallery/photo3.jpg" width="400" height="300" alt="Golden forest">
+                        <br> Golden forest
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="./gallery/photo4.jpg">
+                    <img src="./gallery/thumb4.jpg" width="100" height="75" alt="Golden Bay">
+                    <span>
+                        <img src="./gallery/photo4.jpg" width="400" height="300" alt="Golden Bay">
+                        <br> Golden Bay
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="./gallery/photo5.jpg">
+                    <img src="./gallery/thumb5.jpg" width="100" height="75" alt="Golden Blur">
+                    <span>
+                        <img src="./gallery/photo5.jpg" width="400" height="300" alt="Golden Blur">
+                        <br> Golden Blur
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="./gallery/photo6.jpg">
+                    <img src="./gallery/thumb6.jpg" width="100" height="75" alt="Golden Sunshine">
+                    <span>
+                        <img src="./gallery/photo6.jpg" width="400" height="300" alt="Golden Sunshine">
+                        <br> Golden Sunshine
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
